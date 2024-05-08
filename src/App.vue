@@ -14,11 +14,11 @@ const msg = ref(0)
       </h2>
     </header>
     <main class='main'>
-      <h1 class='ousadia'>Ousadia {{ (msg / 2).toFixed(0) }}</h1>
-      <h2>Dano Verdadeiro: {{ (80 + ((msg / 2) * 0.26)).toFixed(0) }}</h2>
+    <h1>Dano Verdadeiro: {{ (80 + ((msg / 2) * 0.26)).toFixed(0) }}</h1>
+      <h2 class='ousadia'>Ousadia {{ (msg / 2).toFixed(0) }}</h2>
       <span>
-        <label for="vida">Quanto de HP: </label>
-        <input type="number" v-model="msg" name="vida"/>
+        <label for="vida" class="lifeQnt">Quanto de HP: </label>
+        <input type="number" v-model="msg" name="vida" class="input"/>
       </span>
     </main>
   </div>

@@ -7,7 +7,7 @@
 }
 
 body{
-    background: url(../public/sett-wallpaper.jpeg);
+    background: url(./imgs/sett-wallpaper.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -42,4 +42,18 @@ body{
 .container{
     width: 500px;
     height: 500px;
+}
+
+.lifeQnt{
+    font-weight: 600;
+}
+
+.input{
+    border: none;
+    width: 150px;
+    height: 20px;
+    border-radius: 12px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
 }
